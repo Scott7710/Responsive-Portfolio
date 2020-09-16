@@ -32,58 +32,56 @@
 
 
 
-<!-- main container for name, email, message-->
-<div class="container-md">
-  <div class="row">
-    <div class="col-lg-8">
-  <form class="form-horizontal" method="post">
-    <fieldset>
-      <legend class="text-center">
-        <h1>Contact</h1>
-      </legend>
-      <br>
 
-      <!-- name -->
-      <div class="form-group">
-        <label class="col-md-8 control-label" for="name">Your Name</label>
-        <div class="col-lg-6">
-          <input id="name" type="text" placeholder="Your Name" class="form-control">
-        </div>
+
+
+<!-- main container for name, email, message-->
+<!-- <container class="main">
+<div class="form-group"> -->
+  <!-- <div class="row">
+    <div class="col-lg-3> -->
+   
+  <div class="form-group>method=post">
+    <!-- <div class="group"> -->
+      <div class="text-center">
+        <h2>Contact</h2>
+      </div>
+    <br>
+
+      <!-- using responsive small container to fill up xs screen but not small screen -->
+  
+      <div class="container-sm">
+        
+        <!-- group name title with name textarea -->
+        <div class="form-group">
+        <div class="col-lg-1 d-flex justify-content-center control-label" for="name">Your Name</div>
+       <textarea id="name" type="text" placeholder="Your Name" rows="1" class="form-control"></textarea>
       </div>
 
-      <!-- email -->
+      <!-- group email form and email placeholder -->
       <div class="form-group">
-        <label class="col-lg-8 control-label" for="email">Your Email</label>
-        <div class="col-lg-6">
-          <input id="email" type="text" placeholder="Your Email" class="form-control">
-        </div>
+        <div class="col-lg-1 d-flex justify-content-center control-label" for="email">Your Email</div>
+        <textarea id="email" type="text" placeholder="Your Email" rows="2" class="form-control"></textarea>
       </div>
 
       <!-- message -->
       <div class="form-group">
-        <label class="col-md-8 control-label" for="message">Your Message</label>
-        <div class="col-lg-6">
-          <textarea id="message" type="text" placeholder="Your Message" rows="6" class="form-control"></textarea>
-        <br>
-
-      <!-- submit button part of message form-group -->
-    
-        <div class="col-lg-10 text-center">
-          <button type="submit" class="btn-primary btn-lg">Submit</button>
+        <div class="col-lg-8 d-flex justify-content-center control-label" for="message">Your Message</div>
+          <textarea id="message" type="text" placeholder="Enter Message" rows="3" class="form-control"></textarea>
       </div>
+    <br>
+        
+      </div>
+      <!-- submit button part of container -->
+      <a href="st.germain710@gmail.com" class="btn btn-lg btn-outline-secondary" role="button">Submit</a>
+          
+        
     </div>
-  </div>
-    </fieldset>
-  </form>
-    </div>
-  </div>
-</div>
+ 
 
 <!-- footer -->
 <footer id="sticky-footer">
-  <div id="container">
     <small>Copyright &copy; Scott St. Germain</small>
-  </div>
 </footer>
 
 <!--jquery, javascript, popper-->

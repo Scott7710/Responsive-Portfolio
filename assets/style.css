@@ -1,7 +1,18 @@
+/* .main {
+    align-content: center;
+} */
+/* fieldset {
+    align-content: center;
+} */
 
-
-
-
-h3 {
-    text-align: left;
+form-group {
+    align-content: center;
 }
+
+::placeholder {
+    align-content: center;
+}
+
+/* h3 {
+    text-align: left;
+} */
