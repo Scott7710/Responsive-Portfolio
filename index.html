@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
+<body>
 <header>
   <!--NavBar-->
-  <ul class="nav nav-tabs">
+  
+    <div class="nav-item">
+      <div class="row">
+        <a class="col-md-6"><h2>Scott St. Germain</h2></a>
+    <nav>
+    
+      <ul class="nav">
     <li class="nav-item">
       <a class="nav-link active" href="/index.html">About</a>
     </li>
@@ -19,28 +26,34 @@
     <li class="nav-item">
       <a class="nav-link" href="/portfolio.html">Portfolio</a>
     </li>
+  
   </ul>
+  
+</nav>
+
 </header>
 
-<body>
+
 <!--main container-->
-<div class="container">
-  <div class="row">
-    <div class="offset-col-md-6">
-      <h1>Scott St. Germain</h1>
-    </div>
-  </div>
-  <div class="container">
-  <div class="row-cols-2">
-    <div class="rounded mx-auto d-block"><img src="assets/img/wook.jpg" class=".rounded-sm" alt="wookstar">
-      <!-- <img src="assets/img/wook.jpg"> -->
-    </div>
-    <div class="col-lg-8">About me</div>
-    </div>
-  </div>
-</div>
 
 
+<section class="container-fluid mb-5">
+  <div class="row mt-5">
+      <div class="col-lg-5 mt-4 py-4 pl-4">
+          <img class="img-fluid head-shot" alt="wookstarrr" src="./assets/img/wook.jpg">
+      </div>
+      <div class="col-lg-6 my-auto">
+          <div class="about-content offset-lg-1 col-lg-10">
+              <h3 class="pb-3">I am Scott</h3>
+              <p class="pb-3">I have spots</p>
+              <a href="portfolio.html" class="btn btn-lg btn-outline-secondary" role="button">Learn more</a>
+              <a href="contact.html" class="btn btn-lg btn-primary" role="button">Contact</a>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="call-to-action py-5">
+  <div class="text-center py-5">
 
 <!--Text area-->
     <!-- <div class="container">
