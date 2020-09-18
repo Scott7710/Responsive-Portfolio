@@ -6,7 +6,7 @@ This is a responsive portfolio app that gives an about me/home, a portfolio, and
 
 ### Demo
 Click here to see the github repository for this app:
-[repository](Scott7710.gthub.io/responsivePortfolio/)
+![repository](Scott7710.gthub.io/responsivePortfolio/)
 
 ### Screenshot
 ![Demo Screenshot]()

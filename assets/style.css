@@ -1,18 +1,24 @@
-/* .main {
-    align-content: center;
-} */
-/* fieldset {
-    align-content: center;
-} */
+h2 {
+    text-align: center;
+}
 
-form-group {
+#CCSU {
+    block-size: auto;
+}
+
+  #email {
+      align-self: auto;
+  }
+  
+
+  
+
+#form-group {
     align-content: center;
+    background-color: #149910;
 }
 
 ::placeholder {
     align-content: center;
 }
 
-/* h3 {
-    text-align: left;
-} */
